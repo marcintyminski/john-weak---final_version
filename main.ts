@@ -150,6 +150,9 @@ function removeLeftovers () {
     for (let value of sprites.allOfKind(SpriteKind.fire)) {
         value.destroy()
     }
+    for (let value of sprites.allOfKind(SpriteKind.Monster)) {
+        value.destroy()
+    }
 }
 scene.onOverlapTile(SpriteKind.Player, assets.tile`tile8`, function (sprite, location) {
     game.over(false)
