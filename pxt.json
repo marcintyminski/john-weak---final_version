@@ -1,0 +1,34 @@
+{
+    "name": "John Weak - Copy11",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "animation": "*",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
+        "color-coded-tilemap": "*",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "darts": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.6.24",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
